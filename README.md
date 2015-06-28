@@ -7,6 +7,8 @@ Here, I am listing down things that I generally install on a fresh ubuntu instal
 ## shell and git
 
 #### zshell and oh-my-zsh
+[source link](https://gist.github.com/tsabat/1498393)
+
     apt-get install zsh
     apt-get install git-core
     wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
@@ -31,6 +33,8 @@ Links - [Setup Git](https://help.github.com/articles/set-up-git/), [Generating S
 ## Languages
 
 #### Ruby and Rails
+[source link](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm)
+
     sudo apt-get install build-essential make curl # prerequsites
     gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
     \curl -sSL https://get.rvm.io | bash -s stable
@@ -43,6 +47,8 @@ Links - [Setup Git](https://help.github.com/articles/set-up-git/), [Generating S
     gem install rails
 
 #### NodeJS and NPM
+[source](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server) [links](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager)
+
     curl -sL https://deb.nodesource.com/setup | sudo bash -
     sudo apt-get install nodejs
 
@@ -65,6 +71,8 @@ Links - [Setup Git](https://help.github.com/articles/set-up-git/), [Generating S
     sudo apt-get install mysql-server
 
 #### Postgresql
+[source link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)
+
     sudo apt-get update
     sudo apt-get install postgresql postgresql-contrib
     sudo -i -u postgres
@@ -74,6 +82,8 @@ Links - [Setup Git](https://help.github.com/articles/set-up-git/), [Generating S
     touch ~/.psql_history
 
 #### MongoDB
+[source link](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
+
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
     echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
     sudo apt-get update
@@ -116,6 +126,8 @@ useful for multi-boot systems
 ## Text Editors
 
 #### Sublime Text 2
+[source link](http://askubuntu.com/questions/172698/how-do-i-install-sublime-text-2-3)
+
     sudo add-apt-repository ppa:webupd8team/sublime-text-2
     sudo apt-get update
     sudo apt-get install sublime-text
@@ -126,6 +138,7 @@ useful for multi-boot systems
     sudo apt-get install atom
 
 #### Eclipse
+[source](http://askubuntu.com/questions/26632/how-to-install-eclipse) [links](http://ubuntuhandbook.org/index.php/2014/06/install-latest-eclipse-ubuntu-14-04/)
 
     # Download latest file
     tar -zxvf eclipse.XX.YY.tar.gz
@@ -139,6 +152,8 @@ useful for multi-boot systems
 ## File Sharing
 
 #### Deluge
+the one in official ubuntu repository can be out of date
+
     sudo add-apt-repository ppa:deluge-team/ppa
     sudo apt-get update
     sudo apt-get install deluge
