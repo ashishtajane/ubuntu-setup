@@ -4,6 +4,41 @@ ubuntu setup
 Here, I am listing down things that I generally install on a fresh ubuntu installation for any future reference.
 
 
+## Table of contents
+[source link](https://github.com/aslushnikov/table-of-contents-preprocessor)
+
+- [shell and git](#shell-and-git)
+        - [zshell and oh-my-zsh](#zshell-and-oh-my-zsh)
+        - [Setup Git](#setup-git)
+- [Languages](#languages)
+        - [Ruby and Rails](#ruby-and-rails)
+        - [NodeJS and NPM](#nodejs-and-npm)
+        - [Go](#go)
+        - [Rust](#rust)
+        - [Java](#java)
+- [Databases](#databases)
+        - [MySQL](#mysql)
+        - [Postgresql](#postgresql)
+        - [MongoDB](#mongodb)
+- [Browsers](#browsers)
+        - [Google Chrome](#google-chrome)
+- [Ubuntu Utilities](#ubuntu-utilities)
+        - [Synaptic Package Manager](#synaptic-package-manager)
+        - [Grub Customizer](#grub-customizer)
+- [Communications](#communications)
+        - [Skype](#skype)
+- [Text Editors](#text-editors)
+        - [Sublime Text 2](#sublime-text-2)
+        - [Atom](#atom)
+        - [Eclipse](#eclipse)
+- [File Sharing](#file-sharing)
+        - [Deluge](#deluge)
+- [Media](#media)
+        - [Clementine Music Player](#clementine-music-player)
+        - [VLC Media Player](#vlc-media-player)
+- [Misc Things](#misc-things)
+
+
 ## shell and git
 
 #### zshell and oh-my-zsh
