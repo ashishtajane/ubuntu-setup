@@ -19,7 +19,7 @@ Here, I am listing down things that I generally install on a fresh ubuntu instal
 
 ## Shell
 
-#### ZSH
+#### zshell and oh-my-zsh
     apt-get install zsh
     apt-get install git-core
     wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
@@ -76,3 +76,88 @@ Here, I am listing down things that I generally install on a fresh ubuntu instal
     echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
     sudo apt-get update
     sudo apt-get install mongodb-org
+
+
+## Browsers
+
+#### Google Chrome
+    sudo apt-get install libxss1 libappindicator1 libindicator7
+    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+
+## Ubuntu Utilities
+
+#### Synaptic Package Manager
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get install synaptic
+
+#### Grub Customizer
+useful for multi-boot systems
+
+    sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+    sudo apt-get update
+    sudo apt-get install grub-customizer
+
+
+## Communications
+
+#### Skype
+    sudo dpkg --add-architecture i386
+    sudo apt-get update
+    sudo apt-get install gdebi
+    wget download.skype.com/linux/skype-ubuntu-precise_4.3.0.37-1_i386.deb
+    sudo gdebi skype-ubuntu-precise_4.3.0.37-1_i386.deb
+
+
+## File Sharing
+
+#### Deluge
+    sudo add-apt-repository ppa:deluge-team/ppa
+    sudo apt-get update
+    sudo apt-get install deluge
+
+
+## Media
+
+#### Clementine Music Player
+    sudo add-apt-repository ppa:me-davidsansome/clementine
+    sudo apt-get update
+    sudo apt-get install clementine
+
+#### VLC Media Player
+    sudo apt-get install vlc
+
+
+## Misc Things
+
+    sudo apt-get install aptitude
+
+Flash Plugin
+
+    sudo apt-get install flashplugin-installer
+
+Video Codecs
+
+    sudo apt-get install gstreamer0.10-plugins-ugly gxine libdvdread4 totem-mozilla icedax tagtool easytag id3tool lame nautilus-script-audio-convert libmad0 mpg321 gstreamer1.0-libav
+
+Open terminal in arbitrary paths from nautilus UI
+
+    sudo apt-get install nautilus-open-terminal
+
+Compress software
+
+    sudo apt-get install unrar-free p7zip-full
+
+Tweaking unity
+
+    sudo apt-get install unity-tweak-tool
+
+Resetting unity
+
+    unity-tweak-tool --reset-unity
+
+API Testing
+
+    sudo apt-get install httpie
