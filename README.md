@@ -236,3 +236,7 @@ Resetting unity
 API Testing
 
     sudo apt-get install httpie
+
+Tmux ([source link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-tmux-on-ubuntu-12-10--2))
+
+    sudo apt-get install tmux
