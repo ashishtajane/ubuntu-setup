@@ -1,0 +1,9 @@
+## Things that need to be added to main file ##
+-----------------------------------------------
+
+## Unity themes
+# http://kb.openstudioproject.com/content/ubuntu/best-ubuntu-1404-trusty-themes
+
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-icon-theme-circle numix-gtk-theme
