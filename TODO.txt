@@ -28,3 +28,17 @@ sudo chmod a-w /etc/ssh/sshd_config.backup
 
 ## MISC
 sudo apt-get install ppa-purge
+
+## LaTeX
+sudo apt-get install texlive-latex-extra texlive
+
+## Haskell
+sudo npm install -g babel
+
+## BabelJS (ES6)
+sudo apt-get install haskell-platform
+
+## Node Modules
+sudo npm install -g bower grunt-cli gulp yo
+sudo npm install -g ungit
+sudo npm install -g generator-webapp generator-angular generator-karma
