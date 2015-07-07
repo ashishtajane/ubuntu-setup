@@ -42,3 +42,10 @@ sudo apt-get install haskell-platform
 sudo npm install -g bower grunt-cli gulp yo
 sudo npm install -g ungit
 sudo npm install -g generator-webapp generator-angular generator-karma
+
+## Document Converter
+sudo apt-get install pandoc pandoc-citeproc
+
+## Networking
+sudo apt-get install ssldump
+sudo apt-get install wireshark
