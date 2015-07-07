@@ -49,3 +49,6 @@ sudo apt-get install pandoc pandoc-citeproc
 ## Networking
 sudo apt-get install ssldump
 sudo apt-get install wireshark
+
+## Editor
+sudo apt-get install vim
