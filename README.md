@@ -157,6 +157,8 @@ useful for multi-boot systems
     sudo apt-get install gdebi
     wget download.skype.com/linux/skype-ubuntu-precise_4.3.0.37-1_i386.deb
     sudo gdebi skype-ubuntu-precise_4.3.0.37-1_i386.deb
+    # http://askubuntu.com/a/151118
+    sudo apt-get install sni-qt sni-qt:i386
 
 
 ## Text Editors
