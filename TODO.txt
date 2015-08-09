@@ -58,3 +58,12 @@ sudo apt-get install gtk2-engines-murrine:i386 gtk2-engines-pixbuf:i386
 
 ## Apache2 server -- wsgi
 sudo apt-get install libapache2-mod-wsgi
+
+## HIPCHAT
+# https://www.hipchat.com/downloads#linux
+sudo su
+echo "deb http://downloads.hipchat.com/linux/apt stable main" > \
+  /etc/apt/sources.list.d/atlassian-hipchat.list
+wget -O - https://www.hipchat.com/keys/hipchat-linux.key | apt-key add -
+apt-get update
+apt-get install hipchat
