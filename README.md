@@ -20,6 +20,7 @@ Here, I am listing down things that I generally install on a fresh ubuntu instal
     - [MySQL](#mysql)
     - [Postgresql](#postgresql)
     - [MongoDB](#mongodb)
+    - [Redis](#redis)
 - [Browsers](#browsers)
     - [Google Chrome](#google-chrome)
 - [Ubuntu Utilities](#ubuntu-utilities)
@@ -124,6 +125,18 @@ Links - [Setup Git](https://help.github.com/articles/set-up-git/), [Generating S
     echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
     sudo apt-get update
     sudo apt-get install mongodb-org
+
+#### Redis
+[source link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis)
+
+    wget http://download.redis.io/redis-stable.tar.gz
+    tar xvzf redis-stable.tar.gz
+    cd redis-stable
+    make
+    sudo make install
+    cd utils
+    sudo ./install_server.sh
+    sudo update-rc.d redis_6379 defaults
 
 
 ## Browsers
