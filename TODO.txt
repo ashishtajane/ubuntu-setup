@@ -67,3 +67,12 @@ echo "deb http://downloads.hipchat.com/linux/apt stable main" > \
 wget -O - https://www.hipchat.com/keys/hipchat-linux.key | apt-key add -
 apt-get update
 apt-get install hipchat
+
+##  Password Management
+# http://www.steelpasswordmanager.org/download.html
+sudo apt-get install libmhash-dev libmcrypt-dev libsqlite3-dev
+wget https://gitlab.com/Rosvall/steel/repository/archive.tar.gz?ref=v0.9
+tar -xvzf steel-v0.9-12f07a61a6c0d7a9135ffa863969d2fabab98a03.tar.gz
+cd steel-v0.9-12f07a61a6c0d7a9135ffa863969d2fabab98a03
+make
+sudo make install
