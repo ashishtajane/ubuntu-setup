@@ -76,3 +76,6 @@ tar -xvzf steel-v0.9-12f07a61a6c0d7a9135ffa863969d2fabab98a03.tar.gz
 cd steel-v0.9-12f07a61a6c0d7a9135ffa863969d2fabab98a03
 make
 sudo make install
+
+## CMD Disk usage analyzer
+sudo apt-get install ncdu
